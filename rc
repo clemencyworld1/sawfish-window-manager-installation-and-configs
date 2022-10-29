@@ -1,0 +1,5 @@
+( bind-keys global-keymap "XF86AudioMute" '(system "amixer sset Master toggle") )
+( bind-keys global-keymap "XF86AudioLowerVolume" '(system "amixer sset Master 5%-") )
+( bind-keys global-keymap "XF86AudioRaiseVolume" '(system "amixer sset Master 5%+") )
+( bind-keys global-keymap "XF86MonBrightnessDown" '(system "brightnessctl set 5%-") )
+( bind-keys global-keymap "XF86MonBrightnessUp" '(system "brightnessctl set 5%+") )
