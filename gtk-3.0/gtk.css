@@ -1,0 +1,13 @@
+* {
+font-size: 1rem;
+}
+
+scrolledwindow, notebook *, menubar {
+background: #ffffff;
+border-left: 2px #000000;
+}
+
+*:selected, notebook:focused {
+background: #D6D6D6;
+color: #ffffff;
+}
